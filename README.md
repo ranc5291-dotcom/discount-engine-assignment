@@ -1,12 +1,13 @@
-# Opptra Discount Engine
+Opptra Discount Engine
 
 A customer-facing cart pricing engine. It applies brand, platform and cart-level discounts, always gives the customer the biggest saving, and explains each offer in plain language.
 
-| **Live demo** | https://discount-engine-assignment-taupe.vercel.app |
-| **Backend (API)** | https://discount-engine-assignment-cu5s.onrender.com |
-| **Repository** | https://github.com/ranc5291-dotcom/discount-engine-assignment |
+	
+Live demo	https://discount-engine-assignment-taupe.vercel.app
+Backend (API)	https://discount-engine-assignment-cu5s.onrender.com
+Repository	https://github.com/ranc5291-dotcom/discount-engine-assignment
 
-> **Heads-up:** the backend runs on a free tier and sleeps when idle. The first plain-English rule or chat message after a pause can take 30 to 60 seconds. Opening [`/api/health`](https://discount-engine-assignment-cu5s.onrender.com/api/health) wakes it.
+Heads-up: the backend runs on a free tier and sleeps when idle. The first plain-English rule or chat message after a pause can take 30 to 60 seconds. Opening /api/health wakes it.
 
 ---
 
