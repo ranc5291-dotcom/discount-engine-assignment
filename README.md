@@ -1,13 +1,14 @@
-Opptra Discount Engine
+# Opptra Discount Engine
 
 A customer-facing cart pricing engine. It applies brand, platform and cart-level discounts, always gives the customer the biggest saving, and explains each offer in plain language.
 
-	
-Live demo	https://discount-engine-assignment-taupe.vercel.app
-Backend (API)	https://discount-engine-assignment-cu5s.onrender.com
-Repository	https://github.com/ranc5291-dotcom/discount-engine-assignment
+| | |
+|---|---|
+| **Live demo** | https://discount-engine-assignment-taupe.vercel.app |
+| **Backend (API)** | https://discount-engine-assignment-cu5s.onrender.com |
+| **Repository** | https://github.com/ranc5291-dotcom/discount-engine-assignment |
 
-Heads-up: the backend runs on a free tier and sleeps when idle. The first plain-English rule or chat message after a pause can take 30 to 60 seconds. Opening /api/health wakes it.
+> **Heads-up:** the backend runs on a free tier and sleeps when idle. The first plain-English rule or chat message after a pause can take 30 to 60 seconds. Opening [`/api/health`](https://discount-engine-assignment-cu5s.onrender.com/api/health) wakes it.
 
 ---
 
@@ -131,6 +132,8 @@ npm run build    # Vite production build
 
 - **49 of 49 tests pass.** They cover the engine (spec results, thresholds, ties, negative-price protection, case-insensitive matching), CSV and PDF parsing, rule validation (the brief's examples, invalid values, duplicates), chat replies, and the server routes with the LLM stubbed (ok, ambiguous, invalid, unreadable output, service down).
 - **The production build succeeds** (297 modules, no errors).
+
+
 
 
 ---
