@@ -131,13 +131,6 @@ npm run build    # Vite production build
 - **49 of 49 tests pass.** They cover the engine (spec results, thresholds, ties, negative-price protection, case-insensitive matching), CSV and PDF parsing, rule validation (the brief's examples, invalid values, duplicates), chat replies, and the server routes with the LLM stubbed (ok, ambiguous, invalid, unreadable output, service down).
 - **The production build succeeds** (297 modules, no errors).
 
----
-
-## Limitations and alternatives
-
-- **Scanned or image PDFs are not supported** and show a clear error. *Alternative:* accept a CSV or structured export from the order system, or add OCR as a separate input mode. For production I would prefer structured order data over parsing a PDF layout.
-- **Bundle size:** Vite warns about chunks over 500 kB, mostly the PDF library. *Alternative:* lazy-load `pdfjs-dist` only when a PDF is uploaded.
-- **Duplicate-rule check:** the brief's confirmation step is right for safety. I added a duplicate check so a user cannot confirm a rule that changes nothing.
 
 ---
 
